@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin"
+    tools:context=".EditorActivity">
+
+    <RelativeLayout
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/editor_add_image"
+            android:layout_width="@dimen/editor_image_view"
+            android:layout_height="@dimen/editor_image_view"
+            android:background="@drawable/shape_image"
+            android:src="@drawable/ic_add_a_photo_black_36dp" />
+
+        <TextView
+            android:id="@+id/add_image_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/editor_add_image"
+            android:layout_centerInParent="true"
+            tools:text="Click here to add an image" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/ItemStyle"
+            android:text="@string/item_name" />
+
+        <EditText
+            android:id="@+id/edit_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/ItemStyle"
+            android:text="@string/add_quantity_text" />
+
+        <Button
+            android:id="@+id/decrease_button"
+            style="@style/DecreaseButtonStyle"
+            android:text="@string/decrease_quantity_sign" />
+
+        <TextView
+            android:id="@+id/edit_item_quantity"
+            android:layout_width="@dimen/quantity_text_view"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:textAlignment="center"
+            android:textSize="@dimen/quantity_text_size" />
+
+        <Button
+            android:id="@+id/increase_button"
+            style="@style/IncreaseButtonStyle"
+            android:text="@string/increase_quantity_sign" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/ItemStyle"
+            android:text="@string/item_price" />
+
+        <EditText
+            android:id="@+id/edit_item_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/order_supplier"
+            style="@style/OrderButtonStyle"
+            android:text="@string/order_from_supplier" />
+
+        <Button
+            android:id="@+id/delete_item"
+            style="@style/DeleteButtonStyle"
+            android:text="@string/delete_single_item" />
+    </LinearLayout>
+</LinearLayout>

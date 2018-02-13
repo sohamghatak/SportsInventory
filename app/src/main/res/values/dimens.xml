@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Margin around the floating action button in SportsActivity -->
+    <dimen name="fab_margin">24dp</dimen>
+
+    <!-- Common margin value used in the app -->
+    <dimen name="activity_margin">16dp</dimen>
+
+    <!-- Common padding margin value used in the app -->
+    <dimen name="padding_margin">8dp</dimen>
+
+    <!--Quantity text view width in Editor activity-->
+    <dimen name="quantity_text_view">60dp</dimen>
+
+    <!--Quantity text view sizein Editor activity -->
+    <dimen name="quantity_text_size">20sp</dimen>
+
+    <!--Quantity text view sizein Editor activity -->
+    <dimen name="no_items_text">20sp</dimen>
+
+    <!--Generic shape dimens -->
+    <dimen name="shape_dimen">40dp</dimen>
+
+    <!--Generic shape radius -->
+    <dimen name="shape_radius">5dp</dimen>
+
+    <!--Editor image view size-->
+    <dimen name="editor_image_view">160dp</dimen>
+
+</resources>

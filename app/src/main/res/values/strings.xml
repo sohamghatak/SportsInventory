@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">Sports Inventory</string>
+
+    <!--Insert dummy data menu text-->
+    <string name="insert_dummy_data">Insert dummy data</string>
+
+    <!--Insert dummy data menu text-->
+    <string name="delete_all_items">Delete all items</string>
+
+    <!--Item insert in table failed-->
+    <string name="editor_insert_item_failed">Failed to save item</string>
+
+    <!--Item insert is successful-->
+    <string name="editor_insert_item_successful">Item saved successfully</string>
+
+    <!--Item insert in table failed-->
+    <string name="editor_update_item_failed">Failed to update item</string>
+
+    <!--Item insert is successful-->
+    <string name="editor_update_item_successful">Item updated successfully</string>
+
+    <!--Deletion for complete items failed-->
+    <string name="delete_all_items_failed">Failed to delete all items</string>
+
+    <!--All items deleted successfully-->
+    <string name="delete_all_items_successful">All Items deleted successfully</string>
+
+    <!--Item deletion failed-->
+    <string name="editor_delete_item_failed">Failed to delete item</string>
+
+    <!--Delete item is successful-->
+    <string name="editor_delete_item_successful">All Items deleted successfully</string>
+
+    <!--Failed to update quantity of item-->
+    <string name="item_sale_failed">Failed to sell item</string>
+
+    <!--No stock left for product-->
+    <string name="item_no_stock">There is no stock for this product</string>
+
+    <!--When adding an item in Editor Activity, item not saved as there are no values-->
+    <string name="item_not_saved">Item was not saved as you did not enter any value</string>
+
+    <!--Item name static text-->
+    <string name="item_name">Name of product</string>
+
+    <!--Item quantity static text-->
+    <string name="item_quantity">Left in Stock</string>
+
+    <!--Item price static text-->
+    <string name="item_price">Price per unit $</string>
+
+    <!--Item quantity in EditorActivity text-->
+    <string name="add_quantity_text">Add quantity</string>
+
+    <!--Increase quantity-->
+    <string name="increase_quantity_sign">+</string>
+
+    <!--Decrease quantity-->
+    <string name="decrease_quantity_sign">-</string>
+
+    <!--Order from supplier button text-->
+    <string name="order_from_supplier">Order from Supplier</string>
+
+    <!--Delete single item button text-->
+    <string name="delete_single_item">Delete item</string>
+
+    <!--Add Item title in Editor Activity-->
+    <string name="add_item">Add an item</string>
+
+    <!--Delet Item title in Editor Activity-->
+    <string name="edit_item">Edit an item</string>
+
+    <!-- Title text for the empty view-->
+    <string name="empty_view_title_text">There are no items in the inventory</string>
+
+    <!-- Subtitle text for the empty view-->
+    <string name="empty_view_subtitle_text">Get started by adding a few by clicking the add(+) item button below</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes-->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes-->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current item-->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current item -->
+    <string name="delete_dialog_msg">Are you sure you want to delete this item?</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current item -->
+    <string name="delete_all_items_dialog_msg">Are you sure you want to delete all the items?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current item-->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current item-->
+    <string name="cancel">Cancel</string>
+
+    <!-- Email subject for order from supplier-->
+    <string name="email_subject">Request for supply of :</string>
+
+    <!--Email body for order from supplier-->
+    <string name="email_body">Please supply 20 units of</string>
+
+    <!--Limit of items that can be added to the inventory-->
+    <string name="limit_quantity_warning">Only 50 items can be added to the inventory</string>
+
+    <!--Negative quantity warning-->
+    <string name="negative_quantity_warning">Quantity of items cannot be zero</string>
+
+    <!--Editor activity message when no image is picked-->
+    <string name="no_image_picked">You haven\'t picked an image</string>
+
+    <!--Editor activity message to select an image-->
+    <string name="pick_an_image">Select Image</string>
+
+    <!--Editor activity message to select an image-->
+    <string name="add_an_image">Click here to add an image</string>
+
+    <!--List item price static text-->
+    <string name="price_text">Price</string>
+
+    <!--List item quantity static text-->
+    <string name="in_stock_text">In Stock</string>
+
+    <!--List item dollar sign-->
+    <string name="dollar_sign">$</string>
+
+    <!--List item piece left static text-->
+    <string name="pieces_text">pcs</string>
+
+    <!--List item sale button text-->
+    <string name="sale_button_text">Sale</string>
+
+    <!--List item sale button text-->
+    <string name="no_value_text">You have not entered any value for </string>
+
+    <!--List item sale button text-->
+    <string name="no_value_text_end">Please enter a value and then try saving the item.</string>
+
+</resources>

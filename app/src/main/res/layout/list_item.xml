@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:id="@+id/product_image"
+        style="@style/ProductImageStyle"
+        android:background="@drawable/shape_image"
+        android:src="@drawable/example" />
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        style="@style/TextLinearLayoutStyle">
+
+        <TextView
+            android:id="@+id/sports_item_name"
+            style="@style/TitleTextViewStyle"
+            tools:text="Football" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/ProductStaticTextStyle"
+                android:text="@string/price_text" />
+
+            <TextView
+                android:id="@+id/sports_item_price"
+                style="@style/ProductPriceText"
+                tools:text="50" />
+
+            <TextView
+                style="@style/ProductDescriptionStyle"
+                android:text="@string/dollar_sign" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/ProductStaticTextStyle"
+                android:text="@string/in_stock_text" />
+
+            <TextView
+                android:id="@+id/sports_item_quantity"
+                style="@style/ProductQuantityText"
+                tools:text="5" />
+
+            <TextView
+                style="@style/ProductDescriptionStyle"
+                android:text="@string/pieces_text" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sale_button"
+        style="@style/SaleButtonStyle"
+        android:background="@drawable/shape_sale"
+        android:text="@string/sale_button_text" />
+
+</LinearLayout>
